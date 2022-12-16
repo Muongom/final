@@ -85,6 +85,7 @@ y_pred = eclf1.predict(X_test)
 
 print('Accuracy: %.9f' % sklearn.metrics.accuracy_score(y_test, y_pred))
 ```
+0.879210221의 정확도를 보였다
 
 ###### license
 MIT license
