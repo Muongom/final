@@ -32,7 +32,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.ensemble import ExtraTreesClassifier
 from sklearn import svm
 ```
-######데이터 불러오기
+###### 데이터 불러오기
 ```
 image_size = 64
 labels = ['glioma_tumor','meningioma_tumor','no_tumor','pituitary_tumor']
@@ -63,7 +63,7 @@ for i in range(len(y)):
     if j >= len(labels):
         break
 ```
-######데이터를 학습용과 테스트용으로 분리
+###### 데이터를 학습용과 테스트용으로 분리
 
 ```
 X_train, X_test, y_train, y_test = sklearn.model_selection.train_test_split(X, y, test_size=0.3, random_state=0)
@@ -86,4 +86,9 @@ y_pred = eclf1.predict(X_test)
 print('Accuracy: %.9f' % sklearn.metrics.accuracy_score(y_test, y_pred))
 ```
 
+###### license
+MIT license
 
+###### Contact information
+
+김동건 Kim Donggeon / Moungom / caukdk@gmail.com
