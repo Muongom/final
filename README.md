@@ -3,7 +3,7 @@
 
 ###### Import
 
-`
+```
 import os
 
 import sklearn.datasets
@@ -31,4 +31,4 @@ from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.ensemble import ExtraTreesClassifier
 from sklearn import svm
-`
+```
